@@ -1,6 +1,6 @@
 # Meal_App
-Meal App - Coding Ninjas FE Skill Test Project 
-🪧 Hosted Link :-  
+
+🪧 Hosted Link :- https://surajbarman06.github.io/Meal-App/
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 About the Project :-
