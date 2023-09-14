@@ -1,0 +1,119 @@
+/* Using REM, san-serif Font  */
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+:root {
+    --primary-color: #ff4200;
+    --background-color: #4b4b4b;
+    --card-background-color: #ff9001;
+    --font-primary: #fff;
+    --font-secondary: #e2ded3;
+    --font-family: 'REM', sans-serif;
+    --base-font-size: 16px;
+    --letter-spacing: 2px;
+    --border-radius: 20px;
+  }
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family)
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-primary);
+}
+
+/* Navbar section  */
+.nav-heading {
+    letter-spacing: var(--letter-spacing);
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+.prim-color {
+    background-color: var(--primary-color);
+}
+
+
+button span i {
+    color: var(--font-primary);
+    font-size: 2rem;
+}
+
+/* offcanvas section and card Heading  */
+h5 {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+/* Heading Section  */
+#heading {
+    margin-top: 4rem;
+}
+.quote {
+    letter-spacing: var(--letter-spacing);
+    font-style: italic;
+    font-size: 20px;
+}
+/* Header Serach bar  */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 2.8rem;
+    border-radius: var(--border-radius);
+    padding: 0 20px !important;
+    font-size: 1.2rem;
+}
+
+/* Card section  */
+#card {
+    background-color: var(--card-background-color);
+    color: var(--font-primary);
+    border-radius: var(--border-radius);
+}
+
+#card img {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+.card-title {
+    letter-spacing: var(--letter-spacing);
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbnail img{
+    height: 300px;
+    width: 300px;
+    border-radius: var(--border-radius);
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#000000;
+}
